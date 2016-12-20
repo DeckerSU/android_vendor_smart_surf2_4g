@@ -202,6 +202,7 @@ PRODUCT_COPY_FILES += \
     vendor/mts/smart_surf2_4g/proprietary/lib/libpq_prot.so:system/lib/libpq_prot.so \
     vendor/mts/smart_surf2_4g/proprietary/lib/libMtkOmxAdpcmDec.so:system/lib/libMtkOmxAdpcmDec.so \
     vendor/mts/smart_surf2_4g/proprietary/lib/libMtkOmxVenc.so:system/lib/libMtkOmxVenc.so \
+    vendor/mts/smart_surf2_4g/proprietary/lib/libMtkOmxVdecEx.so:system/lib/libMtkOmxVdecEx.so \
     vendor/mts/smart_surf2_4g/proprietary/lib/libcam.utils.so:system/lib/libcam.utils.so \
     vendor/mts/smart_surf2_4g/proprietary/lib/libSwJpgCodec.so:system/lib/libSwJpgCodec.so \
     vendor/mts/smart_surf2_4g/proprietary/lib/libcam3_app.so:system/lib/libcam3_app.so \
