@@ -12,15 +12,15 @@ LOCAL_SRC_FILES_32  := $(PROPRIETARY_PATH)/lib/libcfgdevparam.so
 LOCAL_MULTILIB := both
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE        := MtkCamera
-LOCAL_MODULE_TAGS   := optional
-LOCAL_MODULE_CLASS  := APPS
-LOCAL_CERTIFICATE   := platform
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_SRC_FILES     := $(PROPRIETARY_PATH)/app/Camera/Camera.apk
-LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/app
-include $(BUILD_PREBUILT)
+#include $(CLEAR_VARS)
+#LOCAL_MODULE        := MtkCamera
+#LOCAL_MODULE_TAGS   := optional
+#LOCAL_MODULE_CLASS  := APPS
+#LOCAL_CERTIFICATE   := platform
+#LOCAL_MODULE_SUFFIX := .apk
+#LOCAL_SRC_FILES     := $(PROPRIETARY_PATH)/app/Camera/Camera.apk
+#LOCAL_MODULE_PATH   := $(PRODUCT_OUT)/system/app
+#include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE        := Camu
